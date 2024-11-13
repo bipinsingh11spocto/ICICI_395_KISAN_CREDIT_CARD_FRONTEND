@@ -1,0 +1,117 @@
+@media (min-width:432px) {
+  .modal_theme {
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 96px;
+    /* Location of the box */
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    max-width: 394px;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    overflow: hidden;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 400px;
+    height: 15px;
+    /* Height of the footer */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body {
+    width: 401.55px;
+    margin-top: auto;
+    margin-right: auto;
+  }
+
+  .landing-page-content {
+    height: calc(100vh - 110px);
+  }
+
+  .calling-page-content {
+    height: calc(100vh - 221px);
+  }
+}
+
+@media (max-width:432px) {
+  body {
+    border: none !important;
+  }
+
+  .modal-content {
+    font-size: 9px !important;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 99.2%;
+    height: 15px;
+    /* Height of the footer */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .settlement-data-input {
+    padding: 4px !important;
+    float: right !important;
+    width: 28% !important;
+    line-height: 0px !important;
+    text-align: center !important;
+  }
+
+  .slider-label {
+    float: left !important;
+    margin-bottom: 0px !important;
+  }
+
+  .slider-container-one {
+    margin-top: 0;
+  }
+
+  .slider-container-two {
+    margin-top: 0px;
+  }
+
+
+  .calling-page-content {
+    height: calc(100vh - 205px);
+  }
+
+  .footer-body {
+    margin-top: 8px;
+    /* position: fixed; */
+    width: 100%;
+    /* bottom: 0; */
+  }
+
+
+  .button-group {
+    height: 142px !important;
+  }
+
+  .button-group {
+    margin-bottom: 5px !important;
+  }
+}

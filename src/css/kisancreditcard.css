@@ -1,0 +1,567 @@
+/* Gloable css start */
+.fsz-12 {
+    font-size: 12px;
+}
+
+.mtn-3 {
+    margin-top: -3px;
+}
+
+.mt-2 {
+    margin-top: 10px;
+}
+
+/* Gloable css end */
+
+
+.sub-video-header {
+    width: 68%;
+    padding: 10px;
+    margin-top: -65px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub-video-header--modified {
+    margin-top: -10px;
+}
+
+.controll-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    color: #fff;
+    width: 280px;
+    height: 20px;
+    margin-top: -7px;
+    align-items: center;
+    padding: 4px;
+}
+
+.vedio-controll-logo {
+    width: 12px;
+    height: 12px;
+}
+
+.an {
+    width: 14px;
+    height: 14px;
+}
+
+.sub-video-header>.ant-card>.ant-card-body {
+    padding: 3px !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.landing-page-containetr {
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.landing-page-containetr>.ant-card>.ant-card-body {
+    padding: 6px 20px 5px 20px !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 6px !important;
+}
+
+.card-title-content {
+    color: var(--blue-color);
+    font-weight: 700;
+}
+
+.margin-top-7 {
+    margin-top: 7px;
+}
+
+.acc-details-content {
+    margin-top: 10px;
+}
+
+.acc-content-label {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.acc-details-content>.ant-card>.ant-card-body {
+    padding: 4px !important;
+    border-radius: 6px !important;
+    text-align: center;
+}
+
+.hr-line {
+    border-top: 1px solid rgb(225, 221, 221);
+    width: 102px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.account-details-table {
+    font-weight: 650;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 11.5px;
+    margin-bottom: 4px;
+}
+
+.footer-body {
+    padding: 6px;
+    text-align: justify;
+    background: linear-gradient(180deg, var(--button-background-color) 0%, #e91f14 100%);
+    color: #fff;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 160px;
+}
+
+.button-group>.button {
+    width: 85%;
+    height: 42px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 4px !important;
+    background: linear-gradient(180deg, var(--button-background-color) 0%, #e91f14 100%);
+    box-shadow: 0px 3px 0px 0px #e91f14 !important;
+    border: none;
+}
+
+.button-group>.button>label {
+    cursor: pointer;
+}
+
+.button-group>.button>.double-text {
+    margin-top: -5px !important;
+}
+
+.button-logo {
+    width: 85%;
+    height: 42px;
+    border-radius: 4px !important;
+    border: none;
+    background: linear-gradient(180deg, var(--button-background-color) 0%, #e91f14 100%);
+    box-shadow: 0px 3px 0px 0px #e91f14 !important;
+}
+
+.button-logo>img {
+    width: 9rem;
+    margin-top: -5px;
+}
+
+.calling-page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.calling-log {
+    width: 5rem;
+}
+
+/* antd Modal customise start */
+.modal-box>.ant-card>.ant-card-body {
+    padding: 0px;
+}
+
+.modal_theme {
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 50%;
+    /* Location of the box */
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    overflow: hidden;
+    box-shadow: 2px 0px 7px 4px rgba(113, 115, 120, 0.8);
+    -webkit-box-shadow: 2px 0px 7px 4px rgba(113, 115, 120, 0.8);
+    -moz-box-shadow: 2px 0px 7px 4px rgba(113, 115, 120, 0.8);
+}
+
+.modal-content {
+    /* background-color: transparent; */
+    margin: auto;
+    padding: 0px;
+}
+
+.modalHeader {
+    background-color: var(--button-background-color);
+    color: #FFFFFF;
+    overflow: hidden;
+    border-radius: 2px 2px 0 0;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.modalHeaderHeading {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.modalCrox {
+    font-size: 18px;
+    float: right;
+    transition: transform .5s;
+}
+
+.modalCrox:hover {
+    transform: scale(1.2);
+}
+
+.model-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: var(--blue-color);
+}
+
+.model-contents>img {
+    width: 45px;
+}
+
+.sub-header {
+    font-size: 18px;
+}
+
+.model-body {
+    margin-top: 100px;
+    background-color: #fff;
+    padding-bottom: 6px;
+    border-radius: 4px;
+}
+
+/* antd Modal customise end */
+
+.nav-img-back {
+    max-width: 100%;
+    margin-top: 0px;
+}
+
+/* time controll */
+
+.timecontrols {
+    display: flex;
+    align-items: center;
+    width: 140px;
+
+}
+
+.time_progressbarContainer {
+    background-color: gray;
+    border-radius: 15px;
+    width: 75vw;
+    height: 5px;
+    z-index: 30;
+    position: relative;
+    margin: 0 20px;
+}
+
+.time_progressBar {
+    border-radius: 15px;
+    background-color: indigo;
+    height: 100%;
+}
+
+.controlsTime {
+    color: white;
+}
+
+.video-react .video-react-big-play-button {
+    top: 39% !important;
+    left: 32% !important;
+}
+
+/* antd button style customisation */
+.ant-btn-primary {
+    border-color: var(--button-background-color) !important;
+    background: var(--button-background-color) !important;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+    color: #fff !important;
+    border-color: var(--button-background-color) !important;
+    background: var(--button-background-color) !important;
+}
+
+.ant-btn:hover,
+.ant-btn:focus {
+    color: var(--button-background-color) !important;
+    border-color: var(--button-background-color) !important;
+    background: #fff;
+}
+
+.fsz-12>p {
+    color: var(--white-color);
+    line-height: 16px;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px;
+}
+
+/* Define the custom class for Select component */
+.custom-select .ant-select-selector:hover {
+    border-color: var(--button-background-color) !important;
+    /* Change this to your desired hover color */
+}
+
+.custom-select .ant-select-focused .ant-select-selector {
+    border-color: var(--button-background-color) !important
+}
+
+.pointer-cursor {
+    cursor: pointer !important;
+}
+
+.language-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.language-div {
+    text-align: center;
+    width: 300px;
+    padding: 4px 4px;
+    border: 1px solid #eab587;
+    border-radius: 2px;
+    margin: 3px 2px;
+    cursor: pointer;
+    box-shadow: 2px 2px 0px 0px #c5c4c3 !important;
+}
+
+.language-div>label {
+    cursor: pointer;
+    font-weight: 530;
+    font-size: small;
+}
+
+.model-container {
+    margin: 12px 2px;
+}
+
+.UserContentStyle {
+    color: #595656 !important;
+    font-size: 15px !important;
+    font-family: Mulish_SemiBold !important;
+    font-weight: 300 !important;
+}
+
+.AccountDetailsStyle {
+    color: #e76e35 !important;
+    font-size: 18px !important;
+    font-family: Mulish_SemiBold !important;
+    font-weight: 700 !important;
+    padding: 10px 8px 10px !important;
+    margin: 2px !important;
+}
+
+.AccountDetailsGStyle {
+    border: 1px solid #e76e35!important;
+    border-top-left-radius: 20px!important;
+    border-top-right-radius: 20px!important;
+    border-bottom-left-radius: 20px!important;
+    border-bottom-right-radius: 20px!important;
+    margin: 5px!important;
+    font-family: Mulish_SemiBold !important;
+    background-color: #fff !important;
+}
+
+.AccountDetailsStyle {
+    color: #e76e35 !important;
+    font-size: 18px !important;
+    font-family: Mulish_SemiBold !important;
+    font-weight: 700 !important;
+    padding: 10px 8px 10px !important;
+    margin: 2px !important;
+}
+
+.AccountDetailsTStyle {
+    background-color: #e76e35 !important;
+    padding: 10px 15px!important;
+    margin-top: 0px!important;
+    border-top-left-radius: 20px!important;
+    border-top-right-radius: 20px!important;
+    font-size: 17px!important;
+    /* font-weight: 800!important; */
+    color: #fff!important;
+    font-family: Mulish_SemiBold !important;
+}
+
+.AccountDetailsVStyle {
+    background-color: #fff !important;
+    color: #e76e35 !important;
+    padding: 5px 15px !important;
+    font-size: 17px !important;
+    /* font-weight: 800 !important; */
+    font-family: Mulish_SemiBold !important;
+}
+
+.AccountDetailsHStyle {
+    background-color: #ef7426 !important;
+    padding: 10px 15px!important;
+    margin-top: 0px!important;
+    font-size: 17px!important;
+    /* font-weight: 800!important; */
+    color: #fff!important;
+    font-family: Mulish_SemiBold !important;
+}
+
+.AccountDetailsBStyle {
+    background-color: #ef7426 !important;
+    padding: 0px 15px !important;
+    margin-bottom: 0px !important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    text-align: center;
+    color: #fff !important;
+    font-size: 25px !important;
+    font-family: Mulish_SemiBold !important;
+}
+
+.Make-a-simple {
+    color: #e76e35 !important;
+    font-size: 15px !important;
+    font-family: Mulish_SemiBold !important;
+    font-weight: bold !important;
+    line-height: 1.5 !important;
+    padding: 50px 8px 0px !important;
+    margin: 2px !important;
+    text-align: center !important;
+}
+
+.div_btn {
+    padding: 25px 0px 40px!important;
+    text-align: center!important;
+}
+
+.button_icici {
+    background-color: #e4520e;
+    border: none;
+    color: white;
+    padding: 5px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+              0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.button_disable_icici {
+    background-color: #b6b6b6;
+    border: none;
+    color: #fff;
+    padding: 5px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+              0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+
+.Make-a-payment {
+    padding: 0px 34px 0px !important;
+    font-weight: bold !important;
+    font-family: Mulish_SemiBold !important;
+    font-size: 16px !important;
+    color: #e76e35 !important;
+    text-align: center !important;
+}
+
+.PaymentOptions_Active {
+    padding: 30px 0px 20px !important;
+    font-weight: bold !important;
+    font-family: Mulish_SemiBold !important;
+    font-size: 17px !important;
+    color: #fff !important;
+    text-align: center !important;
+    border: 1px solid #e76e35 !important;
+    margin: 20px 5px 0px !important;
+    border-radius: 8px !important;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+  0 1px 3px rgba(0, 0, 0, 0.08);
+    background-color: #e4520e;
+}
+
+.UPIOptions_Active {
+    padding: 5px 0px 5px !important;
+    font-weight: bold !important;
+    font-family: Mulish_SemiBold !important;
+    font-size: 17px !important;
+    color: #e76e35 !important;
+    text-align: center !important;
+    border: 1px solid #da7f54 !important;
+    margin: 15px 15px 0px !important;
+    border-radius: 8px !important;
+    cursor: pointer;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.0), 
+  0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.FooterStyle {
+    background-color: #e4520e !important;
+    padding: 25px 15px!important;
+    color: #fff!important;
+    font-family: Mulish_SemiBold !important;
+    line-height: 20px !important;
+}
+
+.view_UPI_option .UPIOptions_Active:hover {
+    background-color: #e4520e; /* Background turns orange on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background change */
+  }
+
+.UPIOptions_Active:hover {
+   /* background-color: orange; /* Background turns orange */
+    color: white !important; /* Text color turns white */
+ /*   transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.thankyou-div-v2 {
+    border: 1px solid #be2a29;
+    padding: 0px;
+    background-color: #be2a29;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.pstyle-thankyou-v2 {
+    font-size: 18px !important;
+    text-align: center !important;
+    color: #fff !important;
+    font-family: Mulish_SemiBold !important;
+    font-weight: 300 !important;
+}
